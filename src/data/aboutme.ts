@@ -26,7 +26,7 @@ export const aboutMe: AboutMe = {
     "I'm a Research Fellow at the University of Melbourne.\n\nMy research focus is about exploring niche capabilities of LLMs (past: negation, now: geo-spatial).\n\nI also build apps on the side, check out my `vibe-coding' projects below.",
   email: "truonghungthinh21@gmail.com",
   imageUrl:
-    "/images/profile_crop.JPG",
+    "/images/profile_crop.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=EWUVMr4AAAAJ&hl=en",
   githubUsername: "joey234",
   twitterUsername: "ththinh_",
