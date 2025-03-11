@@ -6,6 +6,7 @@ export interface Experience {
   advisor?: string;
   supervisor?: string;
   companyUrl?: string;
+  manager?: string;
 }
 
 export const experienceData: Experience[] = [
