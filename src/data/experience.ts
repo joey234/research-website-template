@@ -4,27 +4,48 @@ export interface Experience {
   company: string;
   description?: string;
   advisor?: string;
-  manager?: string;
+  supervisor?: string;
   companyUrl?: string;
 }
 
 export const experienceData: Experience[] = [
+  // {
+  //   date: "2023-2024",
+  //   title: "Research Assistant",
+  //   company: "University of Melbourne",
+  //   description:
+  //     "Worked on a project about benchmarking LLM robustness to linguistic changes",
+  //   supervisor: "Dr. Jey Han Lau",
+  //   companyUrl: "https://unimelb.edu.au",
+  // },
+
+  
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
+    date: "2022-2024",
+    title: "Teaching Assistant",
+    company: "University of Melbourne",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "Head tutor for the course NLP for Health",
+    supervisor: "Prof. Mike Conway",
+    companyUrl: "https://handbook.unimelb.edu.au/2023/subjects/comp90090",
   },
+
   {
-    date: "Summer 2022",
+    date: "2020-2021",
     title: "Research Intern",
-    company: "Google Research",
+    company: "VinAI Research",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "Worked on creating new resources for Vietnamese NLP",
+    supervisor: "Dr. Dat Quoc Nguyen",
+    companyUrl: "https://vinai.io",
   },
+  // {
+  //   date: "Summer 2019",
+  //   title: "Research Intern",
+  //   company: "NII",
+  //   description:
+  //     "Worked on knowledge graph embedding for fact checking",
+  //   supervisor: "Prof. Hideaki Takeda",
+  //   companyUrl: "https://nii.ac.jp",
+  // },
 ];

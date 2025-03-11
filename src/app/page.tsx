@@ -10,6 +10,8 @@ import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
+import { MiscEntry } from "@/components/misc-entry";
+import { miscData } from "@/data/misc";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
@@ -108,6 +110,21 @@ export default function Home() {
                               key={index}
                               experience={experience}
                             />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Misc:
+                  return (
+                    miscData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Misc.
+                        </h2>
+                        <div className="space-y-4">
+                          {miscData.map((miscItem, index) => (
+                            <MiscEntry key={index} miscItem={miscItem} />
                           ))}
                         </div>
                       </section>
