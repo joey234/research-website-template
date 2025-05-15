@@ -5,7 +5,12 @@ import { ArrowLeft } from "lucide-react";
 import { getBlogPost } from "@/utils/blog";
 import ReactMarkdown from "react-markdown";
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+type BlogPageProps = {
+  params: { slug: string }
+  searchParams?: { [key: string]: string | string[] | undefined }
+}
+
+export default function BlogPost({ params }: BlogPageProps) {
   const post = getBlogPost(params.slug);
 
   if (!post) {
