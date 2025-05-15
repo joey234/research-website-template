@@ -10,15 +10,16 @@ export interface Experience {
 }
 
 export const experienceData: Experience[] = [
-  // {
-  //   date: "2023-2024",
-  //   title: "Research Assistant",
-  //   company: "University of Melbourne",
-  //   description:
-  //     "Worked on a project about benchmarking LLM robustness to linguistic changes",
-  //   supervisor: "Dr. Jey Han Lau",
-  //   companyUrl: "https://unimelb.edu.au",
-  // },
+  {
+    date: "2025 - Present",
+    title: "Research Fellow",
+    company: "University of Melbourne",
+    description:
+      "Work on LLM and geospatial understanding",
+    supervisor: "Prof. Jianzhong Qi, Dr. Jey Han Lau",
+    companyUrl: "https://unimelb.edu.au",
+  },
+
 
   
   {
