@@ -12,13 +12,9 @@ import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { MiscEntry } from "@/components/misc-entry";
 import { miscData } from "@/data/misc";
-import { BlogEntry } from "@/components/blog-entry";
-import { getAllBlogPosts } from "@/utils/blog";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
-  const blogPosts = getAllBlogPosts();
-  
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
@@ -114,21 +110,6 @@ export default function Home() {
                               key={index}
                               experience={experience}
                             />
-                          ))}
-                        </div>
-                      </section>
-                    )
-                  );
-                case Section.Blog:
-                  return (
-                    blogPosts.length > 0 && (
-                      <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Blog
-                        </h2>
-                        <div className="space-y-12">
-                          {blogPosts.map((post, index) => (
-                            <BlogEntry key={index} post={post} />
                           ))}
                         </div>
                       </section>
