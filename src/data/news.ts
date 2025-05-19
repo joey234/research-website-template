@@ -8,6 +8,14 @@ export interface News {
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
   {
+    date: "Mar 2025",
+    title: "New preprint",
+    description: "FLUKE: A Linguistically-Driven and Task-Agnostic Framework for Robustness Evaluation",
+    link: "https://arxiv.org/abs/2504.17311",
+    // link: "https://icml.cc/",
+  },
+
+  {
     date: "Jan 2025",
     title: "New position",
     description: "I started as a postdoc at the University of Melbourne, working with Jianzhong Qi and Jey Han Lau on spatial understanding of language models.",
