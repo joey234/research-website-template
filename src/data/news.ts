@@ -11,7 +11,7 @@ export const newsData: News[] = [
     date: "Mar 2025",
     title: "New preprint",
     description: "FLUKE: A Linguistically-Driven and Task-Agnostic Framework for Robustness Evaluation",
-    link: "https://arxiv.org/abs/2504.17311",
+    link: "https://fluke-nlp.github.io/",
     // link: "https://icml.cc/",
   },
 

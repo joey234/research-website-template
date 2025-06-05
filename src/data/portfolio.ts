@@ -13,7 +13,7 @@ export const portfolioData: Portfolio[] = [
     title: "Name translator",
     description:
       "A tool for finding ``equivalent names'' (similar in meaning or pronunciation) in other languages.",
-    projectUrl: "https://yournameinxyz",
+    projectUrl: "https://yournamein.xyz",
     imageUrl:
       "/images/yournameinxyz.png",
   },
